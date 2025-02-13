@@ -8,19 +8,19 @@ gem "importmap-rails"
 gem "pg", "~> 1.5.9"
 gem "propshaft"
 gem "puma", ">= 6.6.0"
+gem "solid_cable"
 gem "solid_cache"
 gem "solid_queue"
-gem "solid_cable"
 gem "stimulus-rails"
 gem "tailwindcss-rails", "~> 4.0"
 gem "thruster", require: false
 gem "turbo-rails"
-gem "tzinfo-data", platforms: %i[ windows jruby ]
+gem "tzinfo-data", platforms: %i[windows jruby]
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
-  gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
   gem "brakeman", require: false
+  gem "debug", platforms: %i[mri windows], require: "debug/prelude"
   gem "rubocop"
 end
 
