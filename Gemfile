@@ -4,6 +4,8 @@ source "https://rubygems.org"
 gem "rails", "~> 8.0.1"
 
 gem "bootsnap", require: false
+gem 'dotenv-rails'
+gem "httparty"
 gem "importmap-rails"
 gem "pg", "~> 1.5.9"
 gem "propshaft"

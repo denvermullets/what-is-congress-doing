@@ -1,0 +1,35 @@
+{
+  "member": {
+    "bioguideId": "S001148",
+    "birthYear": "1950",
+    "currentMember": true,
+    "directOrderName": "Michael K. Simpson",
+    "district": 2,
+    "firstName": "Michael",
+    "honorificName": "Mr.",
+    "invertedOrderName": "Simpson, Michael K.",
+    "lastName": "Simpson",
+    "middleName": "K.",
+    "officialWebsiteUrl": "https://simpson.house.gov",
+    "state": "Idaho",
+    "updateDate": "2025-01-10T18:28:34Z",
+    "depiction": {
+      "attribution": "Image courtesy of the Member",
+      "imageUrl": "https://www.congress.gov/img/member/678152c81f9ad6ea6fb1eb7f_200.jpg"
+    },
+    "partyHistory": [
+      {
+        "partyAbbreviation": "R",
+        "partyName": "Republican",
+        "startYear": 1999
+      }
+    ],
+    "addressInformation": {
+      "city": "Washington",
+      "district": "DC",
+      "officeAddress": "2084 Rayburn House Office Building",
+      "phoneNumber": "(202) 225-5531",
+      "zipCode": 20515
+    }
+  }
+}
