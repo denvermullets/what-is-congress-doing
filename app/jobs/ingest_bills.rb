@@ -20,6 +20,7 @@ class IngestBills < ApplicationJob
         # kick off individual bill ingest
         IngestBill.perform_later(bill)
       else
+        puts 'bill previously exists'
         # TODO: bill exists, check if latest action is the same
       end
     end
