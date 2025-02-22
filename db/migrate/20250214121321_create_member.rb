@@ -17,6 +17,7 @@ class CreateMember < ActiveRecord::Migration[8.0]
       t.datetime :update_date
       t.string :image_attribution
       t.string :image_url
+      t.string :party
 
       t.timestamps
     end

@@ -1,0 +1,69 @@
+{
+  "pagination": {
+    "count": 3
+  },
+  "request": {
+    "billNumber": "30",
+    "billType": "hr",
+    "billUrl": "https://api.congress.gov/v3/bill/119/hr/30?format=json",
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  },
+  "textVersions": [
+    {
+      "date": "2025-01-17T05:00:00Z",
+      "formats": [
+        {
+          "type": "Formatted Text",
+          "url": "https://www.congress.gov/119/bills/hr30/BILLS-119hr30rfs.htm"
+        },
+        {
+          "type": "PDF",
+          "url": "https://www.congress.gov/119/bills/hr30/BILLS-119hr30rfs.pdf"
+        },
+        {
+          "type": "Formatted XML",
+          "url": "https://www.congress.gov/119/bills/hr30/BILLS-119hr30rfs.xml"
+        }
+      ],
+      "type": "Referred in Senate"
+    },
+    {
+      "date": "2025-01-16T05:00:00Z",
+      "formats": [
+        {
+          "type": "Formatted Text",
+          "url": "https://www.congress.gov/119/bills/hr30/BILLS-119hr30eh.htm"
+        },
+        {
+          "type": "PDF",
+          "url": "https://www.congress.gov/119/bills/hr30/BILLS-119hr30eh.pdf"
+        },
+        {
+          "type": "Formatted XML",
+          "url": "https://www.congress.gov/119/bills/hr30/BILLS-119hr30eh.xml"
+        }
+      ],
+      "type": "Engrossed in House"
+    },
+    {
+      "date": "2025-01-03T05:00:00Z",
+      "formats": [
+        {
+          "type": "Formatted Text",
+          "url": "https://www.congress.gov/119/bills/hr30/BILLS-119hr30ih.htm"
+        },
+        {
+          "type": "PDF",
+          "url": "https://www.congress.gov/119/bills/hr30/BILLS-119hr30ih.pdf"
+        },
+        {
+          "type": "Formatted XML",
+          "url": "https://www.congress.gov/119/bills/hr30/BILLS-119hr30ih.xml"
+        }
+      ],
+      "type": "Introduced in House"
+    }
+  ]
+}

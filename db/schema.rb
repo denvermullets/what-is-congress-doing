@@ -52,6 +52,7 @@ ActiveRecord::Schema[8.0].define(version: 2025_02_15_140153) do
     t.text "constitutional_authority_statement_text"
     t.string "title"
     t.string "bill_type"
+    t.string "text_url"
     t.datetime "update_date"
     t.datetime "update_date_including_text"
     t.date "introduced_date"
@@ -85,6 +86,7 @@ ActiveRecord::Schema[8.0].define(version: 2025_02_15_140153) do
     t.datetime "update_date"
     t.string "image_attribution"
     t.string "image_url"
+    t.string "party"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

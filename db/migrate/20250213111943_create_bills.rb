@@ -8,6 +8,7 @@ class CreateBills < ActiveRecord::Migration[8.0]
       t.text :constitutional_authority_statement_text
       t.string :title
       t.string :bill_type
+      t.string :text_url
       t.datetime :update_date
       t.datetime :update_date_including_text
       t.date :introduced_date

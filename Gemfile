@@ -7,6 +7,7 @@ gem "bootsnap", require: false
 gem 'dotenv-rails'
 gem "httparty"
 gem "importmap-rails"
+gem "mission_control-jobs"
 gem "pg", "~> 1.5.9"
 gem "propshaft"
 gem "puma", ">= 6.6.0"
@@ -23,6 +24,7 @@ group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "brakeman", require: false
   gem "debug", platforms: %i[mri windows], require: "debug/prelude"
+  gem "pry"
   gem "rubocop"
 end
 
