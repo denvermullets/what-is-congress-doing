@@ -16,6 +16,22 @@ module Congress
       get_request(url)
     end
 
+    def fetch_member(member_id:)
+      url = "#{@base}/member/#{member_id}?format=json"
+      get_request(url)
+    end
+
+    def fetch_cosponsors(congress:, type:, number:)
+      url = "#{@base}/bill/#{congress}/#{type.downcase}/#{number}/cosponsors?format=json&limit=250"
+      get_request(url)
+    end
+
+    def fetch_bill_text(congress:, type:, number:)
+      puts "finding bill #{congress}/#{type}/#{number}"
+      url = "#{@base}/bill/#{congress}/#{type.downcase}/#{number}/text?format=json"
+      get_request(url)
+    end
+
     private
 
     def get_request(url)
