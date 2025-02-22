@@ -1,0 +1,733 @@
+{
+  "bills": [
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-01-20",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "number": "564",
+      "originChamber": "House",
+      "originChamberCode": "H",
+      "title": "To repeal the Protecting Americans from Foreign Adversary Controlled Applications Act.",
+      "type": "HR",
+      "updateDate": "2025-01-21",
+      "updateDateIncludingText": "2025-01-21",
+      "url": "https://api.congress.gov/v3/bill/119/hr/564?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-01-20",
+        "text": "Referred to the House Committee on Ways and Means."
+      },
+      "number": "559",
+      "originChamber": "House",
+      "originChamberCode": "H",
+      "title": "To amend the Internal Revenue Code of 1986 to establish an above-the-line tax deduction for seniors.",
+      "type": "HR",
+      "updateDate": "2025-01-21",
+      "updateDateIncludingText": "2025-01-21",
+      "url": "https://api.congress.gov/v3/bill/119/hr/559?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-01-20",
+        "text": "Referred to the House Committee on Ways and Means."
+      },
+      "number": "560",
+      "originChamber": "House",
+      "originChamberCode": "H",
+      "title": "To amend the Internal Revenue Code of 1986 to exclude compensation from secondary employment for certain taxpayers from the income tax and payroll taxes.",
+      "type": "HR",
+      "updateDate": "2025-01-21",
+      "updateDateIncludingText": "2025-01-21",
+      "url": "https://api.congress.gov/v3/bill/119/hr/560?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-01-20",
+        "text": "Referred to the House Committee on Ways and Means."
+      },
+      "number": "557",
+      "originChamber": "House",
+      "originChamberCode": "H",
+      "title": "To amend the Internal Revenue Code of 1986 to establish a deduction for certain amounts received as a bonus.",
+      "type": "HR",
+      "updateDate": "2025-01-21",
+      "updateDateIncludingText": "2025-01-21",
+      "url": "https://api.congress.gov/v3/bill/119/hr/557?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-01-20",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "number": "566",
+      "originChamber": "House",
+      "originChamberCode": "H",
+      "title": "To direct the Administrator of the Environmental Protection Agency to provide grants to air pollution control agencies to implement a cleaner air space program, and for other purposes.",
+      "type": "HR",
+      "updateDate": "2025-01-21",
+      "updateDateIncludingText": "2025-01-21",
+      "url": "https://api.congress.gov/v3/bill/119/hr/566?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-01-20",
+        "text": "Referred to the House Committee on Ways and Means."
+      },
+      "number": "558",
+      "originChamber": "House",
+      "originChamberCode": "H",
+      "title": "To amend the Internal Revenue Code of 1986 to provide that certain tips shall not be subject to income taxes for a period of 5 years.",
+      "type": "HR",
+      "updateDate": "2025-01-21",
+      "updateDateIncludingText": "2025-01-21",
+      "url": "https://api.congress.gov/v3/bill/119/hr/558?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-01-20",
+        "text": "Referred to the House Committee on the Judiciary."
+      },
+      "number": "568",
+      "originChamber": "House",
+      "originChamberCode": "H",
+      "title": "To provide funding to State and local law enforcement agencies to combat auto theft and stolen automobile trafficking, and for other purposes.",
+      "type": "HR",
+      "updateDate": "2025-01-21",
+      "updateDateIncludingText": "2025-01-21",
+      "url": "https://api.congress.gov/v3/bill/119/hr/568?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-01-20",
+        "text": "Referred to the House Committee on Ways and Means."
+      },
+      "number": "561",
+      "originChamber": "House",
+      "originChamberCode": "H",
+      "title": "To amend the Internal Revenue Code of 1986 to establish a deduction for certain overtime payments.",
+      "type": "HR",
+      "updateDate": "2025-01-21",
+      "updateDateIncludingText": "2025-01-21",
+      "url": "https://api.congress.gov/v3/bill/119/hr/561?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-01-20",
+        "text": "Read twice and referred to the Committee on Finance."
+      },
+      "number": "152",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A bill to amend the Internal Revenue Code of 1986 to permit kindergarten through grade 12 educational expenses to be paid from a 529 account.",
+      "type": "S",
+      "updateDate": "2025-01-21",
+      "updateDateIncludingText": "2025-01-21",
+      "url": "https://api.congress.gov/v3/bill/119/s/152?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-01-20",
+        "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
+      },
+      "number": "153",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A bill to repeal the Protecting Americans from Foreign Adversary Controlled Applications Act.",
+      "type": "S",
+      "updateDate": "2025-01-21",
+      "updateDateIncludingText": "2025-01-21",
+      "url": "https://api.congress.gov/v3/bill/119/s/153?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-01-03",
+        "actionTime": "18:24:51",
+        "text": "Motion to reconsider laid on the table Agreed to without objection."
+      },
+      "number": "3",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A concurrent resolution authorizing the use of the rotunda of the Capitol for the lying in state of the remains of the late James Earl Carter, Jr., 39th President of the United States.",
+      "type": "SCONRES",
+      "updateDate": "2025-01-21",
+      "updateDateIncludingText": "2025-01-21",
+      "url": "https://api.congress.gov/v3/bill/119/sconres/3?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-01-20",
+        "text": "Referred to the House Committee on the Judiciary."
+      },
+      "number": "565",
+      "originChamber": "House",
+      "originChamberCode": "H",
+      "title": "To amend title 28, United States Code, to change the residency requirements for certain officials serving in the District of Columbia, and for other purposes.",
+      "type": "HR",
+      "updateDate": "2025-01-21",
+      "updateDateIncludingText": "2025-01-21",
+      "url": "https://api.congress.gov/v3/bill/119/hr/565?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-01-17",
+        "text": "Received in the Senate and Read twice and referred to the Committee on the Judiciary."
+      },
+      "number": "30",
+      "originChamber": "House",
+      "originChamberCode": "H",
+      "title": "Preventing Violence Against Women by Illegal Aliens Act",
+      "type": "HR",
+      "updateDate": "2025-01-22",
+      "updateDateIncludingText": "2025-01-22",
+      "url": "https://api.congress.gov/v3/bill/119/hr/30?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-01-21",
+        "text": "Read twice and referred to the Committee on Finance."
+      },
+      "number": "175",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A bill to rescind the unobligated balances of amounts appropriated for Internal Revenue Service enhancements and use such funding for an External Revenue Service.",
+      "type": "S",
+      "updateDate": "2025-01-22",
+      "updateDateIncludingText": "2025-01-22",
+      "url": "https://api.congress.gov/v3/bill/119/s/175?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-01-21",
+        "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
+      },
+      "number": "174",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A bill to improve the transparency of Amtrak operations, and for other purposes.",
+      "type": "S",
+      "updateDate": "2025-01-22",
+      "updateDateIncludingText": "2025-01-22",
+      "url": "https://api.congress.gov/v3/bill/119/s/174?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-01-21",
+        "text": "Read twice and referred to the Committee on Energy and Natural Resources."
+      },
+      "number": "154",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A bill to amend the Energy and Water Development and Related Agencies Appropriations Act, 2015, to reauthorize the Colorado River System conservation pilot program.",
+      "type": "S",
+      "updateDate": "2025-01-22",
+      "updateDateIncludingText": "2025-01-22",
+      "url": "https://api.congress.gov/v3/bill/119/s/154?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-01-21",
+        "text": "Read twice and referred to the Committee on Finance."
+      },
+      "number": "172",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A bill to clarify the country of origin of certain articles imported into the United States for purposes of certain trade enforcement actions.",
+      "type": "S",
+      "updateDate": "2025-01-22",
+      "updateDateIncludingText": "2025-01-22",
+      "url": "https://api.congress.gov/v3/bill/119/s/172?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-01-21",
+        "text": "Read twice and referred to the Committee on Finance."
+      },
+      "number": "173",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A bill to amend the Internal Revenue Code of 1986 to increase excise taxes on fuel used by private jets, and for other purposes.",
+      "type": "S",
+      "updateDate": "2025-01-22",
+      "updateDateIncludingText": "2025-01-22",
+      "url": "https://api.congress.gov/v3/bill/119/s/173?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-01-21",
+        "text": "Read twice and referred to the Committee on Environment and Public Works."
+      },
+      "number": "171",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A bill to remove the lesser prairie-chicken from the lists of threatened species and endangered species published pursuant to the Endangered Species Act of 1973, to amend that Act to exclude the lesser prairie-chicken from the authority of that Act, and for other purposes.",
+      "type": "S",
+      "updateDate": "2025-01-22",
+      "updateDateIncludingText": "2025-01-22",
+      "url": "https://api.congress.gov/v3/bill/119/s/171?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-01-21",
+        "text": "Read twice and referred to the Committee on Energy and Natural Resources."
+      },
+      "number": "168",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A bill to establish a debt reduction fund to reduce the national debt of the United States, and for other purposes.",
+      "type": "S",
+      "updateDate": "2025-01-22",
+      "updateDateIncludingText": "2025-01-22",
+      "url": "https://api.congress.gov/v3/bill/119/s/168?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-01-21",
+        "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
+      },
+      "number": "170",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A bill to prohibit the appointment of former fossil fuel executive officers and fossil fuel lobbyists as the heads of certain departments, and for other purposes.",
+      "type": "S",
+      "updateDate": "2025-01-22",
+      "updateDateIncludingText": "2025-01-22",
+      "url": "https://api.congress.gov/v3/bill/119/s/170?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-01-21",
+        "text": "Read twice and referred to the Committee on the Judiciary."
+      },
+      "number": "166",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A bill to amend title 18, United States Code, to create or enhance penalties for murder and assault committed against a law enforcement officer, and for other purposes.",
+      "type": "S",
+      "updateDate": "2025-01-22",
+      "updateDateIncludingText": "2025-01-22",
+      "url": "https://api.congress.gov/v3/bill/119/s/166?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-01-21",
+        "text": "Read twice and referred to the Committee on Finance."
+      },
+      "number": "162",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A bill to amend parts B and E of title IV of the Social Security Act to improve foster and adoptive parent recruitment and retention, and for other purposes.",
+      "type": "S",
+      "updateDate": "2025-01-22",
+      "updateDateIncludingText": "2025-01-22",
+      "url": "https://api.congress.gov/v3/bill/119/s/162?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-01-21",
+        "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
+      },
+      "number": "163",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A bill to require institutions of higher education participating in Federal student aid programs to share information about title VI of the Civil Rights Act of 1964, including a link to the webpage of the Office for Civil Rights where an individual can submit a complaint regarding discrimination in violation of such title, and for other purposes.",
+      "type": "S",
+      "updateDate": "2025-01-22",
+      "updateDateIncludingText": "2025-01-22",
+      "url": "https://api.congress.gov/v3/bill/119/s/163?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-01-21",
+        "text": "Read twice and referred to the Committee on Foreign Relations."
+      },
+      "number": "159",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A bill to designate Ansarallah as a foreign terrorist organization and impose certain sanctions on Ansarallah, and for other purposes.",
+      "type": "S",
+      "updateDate": "2025-01-22",
+      "updateDateIncludingText": "2025-01-22",
+      "url": "https://api.congress.gov/v3/bill/119/s/159?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-01-21",
+        "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
+      },
+      "number": "155",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A bill to improve communication between the United States Postal Service and local communities relating to the relocation and establishment of Postal Service retail service facilities, and for other purposes.",
+      "type": "S",
+      "updateDate": "2025-01-22",
+      "updateDateIncludingText": "2025-01-22",
+      "url": "https://api.congress.gov/v3/bill/119/s/155?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-01-17",
+        "text": "Read twice and referred to the Committee on Environment and Public Works."
+      },
+      "number": "147",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A bill to direct the Administrator of the Environmental Protection Agency to provide grants to air pollution control agencies to implement a cleaner air space program, and for other purposes.",
+      "type": "S",
+      "updateDate": "2025-01-22",
+      "updateDateIncludingText": "2025-01-22",
+      "url": "https://api.congress.gov/v3/bill/119/s/147?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-01-21",
+        "text": "Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry."
+      },
+      "number": "156",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A bill to amend the Food Security Act of 1985 to modify the delivery of technical assistance, and for other purposes.",
+      "type": "S",
+      "updateDate": "2025-01-22",
+      "updateDateIncludingText": "2025-01-22",
+      "url": "https://api.congress.gov/v3/bill/119/s/156?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-01-16",
+        "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
+      },
+      "number": "133",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A bill to modify the fire management assistance cost share, and for other purposes.",
+      "type": "S",
+      "updateDate": "2025-01-22",
+      "updateDateIncludingText": "2025-01-22",
+      "url": "https://api.congress.gov/v3/bill/119/s/133?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-01-16",
+        "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
+      },
+      "number": "126",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A bill to increase the rates of pay under the statutory pay systems and for prevailing rate employees by 4.3 percent, and for other purposes.",
+      "type": "S",
+      "updateDate": "2025-01-22",
+      "updateDateIncludingText": "2025-01-22",
+      "url": "https://api.congress.gov/v3/bill/119/s/126?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-01-21",
+        "text": "Referred to the House Committee on Agriculture."
+      },
+      "number": "575",
+      "originChamber": "House",
+      "originChamberCode": "H",
+      "title": "To amend the Food Security Act of 1985 to modify the delivery of technical assistance, and for other purposes.",
+      "type": "HR",
+      "updateDate": "2025-01-22",
+      "updateDateIncludingText": "2025-01-22",
+      "url": "https://api.congress.gov/v3/bill/119/hr/575?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-01-21",
+        "text": "Referred to the House Committee on Natural Resources."
+      },
+      "number": "596",
+      "originChamber": "House",
+      "originChamberCode": "H",
+      "title": "To require a study relating to the consolidation of certain grant programs currently available to insular areas and the suitability of such consolidation for Puerto Rico, and for other purposes.",
+      "type": "HR",
+      "updateDate": "2025-01-22",
+      "updateDateIncludingText": "2025-01-22",
+      "url": "https://api.congress.gov/v3/bill/119/hr/596?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-01-21",
+        "text": "Referred to the Committee on Science, Space, and Technology, and in addition to the Committees on Natural Resources, and Agriculture, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "number": "582",
+      "originChamber": "House",
+      "originChamberCode": "H",
+      "title": "To establish a community protection and wildfire resilience grant program, and for other purposes.",
+      "type": "HR",
+      "updateDate": "2025-01-22",
+      "updateDateIncludingText": "2025-01-22",
+      "url": "https://api.congress.gov/v3/bill/119/hr/582?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-01-21",
+        "text": "Referred to the Committee on the Judiciary, and in addition to the Committee on Small Business, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "number": "572",
+      "originChamber": "House",
+      "originChamberCode": "H",
+      "title": "To prohibit the use of non-monetized or unqualified factors for regulatory analyses, and for other purposes.",
+      "type": "HR",
+      "updateDate": "2025-01-22",
+      "updateDateIncludingText": "2025-01-22",
+      "url": "https://api.congress.gov/v3/bill/119/hr/572?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-01-21",
+        "text": "Referred to the House Committee on Armed Services."
+      },
+      "number": "590",
+      "originChamber": "House",
+      "originChamberCode": "H",
+      "title": "To amend title 32, United States Code, to clarify certain limitations on full-time National Guard duty performed in a State, Territory, or the District of Columbia, and for other purposes.",
+      "type": "HR",
+      "updateDate": "2025-01-22",
+      "updateDateIncludingText": "2025-01-22",
+      "url": "https://api.congress.gov/v3/bill/119/hr/590?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-01-21",
+        "text": "Referred to the House Committee on Ways and Means."
+      },
+      "number": "571",
+      "originChamber": "House",
+      "originChamberCode": "H",
+      "title": "To amend title II of the Social Security Act to means-test certain child's insurance benefits.",
+      "type": "HR",
+      "updateDate": "2025-01-22",
+      "updateDateIncludingText": "2025-01-22",
+      "url": "https://api.congress.gov/v3/bill/119/hr/571?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-01-21",
+        "text": "Referred to the House Committee on Ways and Means."
+      },
+      "number": "570",
+      "originChamber": "House",
+      "originChamberCode": "H",
+      "title": "To amend the Internal Revenue Code of 1986 to allow the child tax credit with respect to stillbirths.",
+      "type": "HR",
+      "updateDate": "2025-01-22",
+      "updateDateIncludingText": "2025-01-22",
+      "url": "https://api.congress.gov/v3/bill/119/hr/570?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-01-21",
+        "text": "Referred to the House Committee on Financial Services."
+      },
+      "number": "577",
+      "originChamber": "House",
+      "originChamberCode": "H",
+      "title": "To direct the Secretary of Housing and Urban Development to establish a demonstration program to refer qualified participants within the Continuum of Care Program to Certified Community Behavioral Health Clinics for certain treatment, and for other purposes.",
+      "type": "HR",
+      "updateDate": "2025-01-22",
+      "updateDateIncludingText": "2025-01-22",
+      "url": "https://api.congress.gov/v3/bill/119/hr/577?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-01-21",
+        "text": "Referred to the Committee on Natural Resources, and in addition to the Committee on Agriculture, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+      },
+      "number": "598",
+      "originChamber": "House",
+      "originChamberCode": "H",
+      "title": "To amend the Forest and Rangeland Renewable Resources Planning Act of 1974 and the Federal Land Policy and Management Act of 1976 to provide that the Secretary of Agriculture and the Secretary of the Interior are not required to reinitiate consultation on a land management plan or land use plan under certain circumstances, and for other purposes.",
+      "type": "HR",
+      "updateDate": "2025-01-22",
+      "updateDateIncludingText": "2025-01-22",
+      "url": "https://api.congress.gov/v3/bill/119/hr/598?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-01-21",
+        "text": "Referred to the House Committee on Ways and Means."
+      },
+      "number": "593",
+      "originChamber": "House",
+      "originChamberCode": "H",
+      "title": "To amend the Internal Revenue Code of 1986 to exclude certain health professions education scholarship and loan payments from gross income.",
+      "type": "HR",
+      "updateDate": "2025-01-22",
+      "updateDateIncludingText": "2025-01-22",
+      "url": "https://api.congress.gov/v3/bill/119/hr/593?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-01-21",
+        "text": "Referred to the House Committee on Ways and Means."
+      },
+      "number": "579",
+      "originChamber": "House",
+      "originChamberCode": "H",
+      "title": "To amend parts B and E of title IV of the Social Security Act to improve foster and adoptive parent recruitment and retention, and for other purposes.",
+      "type": "HR",
+      "updateDate": "2025-01-22",
+      "updateDateIncludingText": "2025-01-22",
+      "url": "https://api.congress.gov/v3/bill/119/hr/579?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-01-21",
+        "text": "Referred to the House Committee on the Judiciary."
+      },
+      "number": "594",
+      "originChamber": "House",
+      "originChamberCode": "H",
+      "title": "To amend the Immigration and Nationality Act to provide for the detention of certain aliens who commit assault against law enforcement officers.",
+      "type": "HR",
+      "updateDate": "2025-01-22",
+      "updateDateIncludingText": "2025-01-22",
+      "url": "https://api.congress.gov/v3/bill/119/hr/594?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-01-07",
+        "text": "Referred to the House Committee on Appropriations."
+      },
+      "number": "19",
+      "originChamber": "House",
+      "originChamberCode": "H",
+      "title": "Providing the sense of the House of Representatives that the House should not adjourn until the annual appropriation bills within the jurisdiction of all the subcommittees of the Committee on Appropriations for the current fiscal year are enacted into law.",
+      "type": "HRES",
+      "updateDate": "2025-01-22",
+      "updateDateIncludingText": "2025-01-22",
+      "url": "https://api.congress.gov/v3/bill/119/hres/19?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-01-16",
+        "text": "Referred to the House Committee on Rules."
+      },
+      "number": "49",
+      "originChamber": "House",
+      "originChamberCode": "H",
+      "title": "Prohibiting Members of the House of Representatives from bringing or displaying a flag of a foreign nation on the floor of the House, and for other purposes.",
+      "type": "HRES",
+      "updateDate": "2025-01-22",
+      "updateDateIncludingText": "2025-01-22",
+      "url": "https://api.congress.gov/v3/bill/119/hres/49?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-01-09",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "number": "15",
+      "originChamber": "House",
+      "originChamberCode": "H",
+      "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Energy relating to \"Energy Conservation Program: Energy Conservation Standards for Commercial Water Heating Equipment\".",
+      "type": "HJRES",
+      "updateDate": "2025-01-22",
+      "updateDateIncludingText": "2025-01-22",
+      "url": "https://api.congress.gov/v3/bill/119/hjres/15?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-01-13",
+        "text": "Referred to the Committee on Foreign Relations."
+      },
+      "number": "4",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "A concurrent resolution expressing support for the Geneva Consensus Declaration on Promoting Women's Health and Strengthening the Family and urging that the United States rejoin this historic declaration.",
+      "type": "SCONRES",
+      "updateDate": "2025-01-22",
+      "updateDateIncludingText": "2025-01-22",
+      "url": "https://api.congress.gov/v3/bill/119/sconres/4?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-01-03",
+        "text": "Referred to the House Committee on Energy and Commerce."
+      },
+      "number": "7",
+      "originChamber": "House",
+      "originChamberCode": "H",
+      "title": "Recognizing the importance of access to comprehensive, high-quality, life-affirming medical care for women of all ages.",
+      "type": "HRES",
+      "updateDate": "2025-01-22",
+      "updateDateIncludingText": "2025-01-22",
+      "url": "https://api.congress.gov/v3/bill/119/hres/7?format=json"
+    },
+    {
+      "congress": 119,
+      "latestAction": {
+        "actionDate": "2025-01-21",
+        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 5."
+      },
+      "number": "29",
+      "originChamber": "Senate",
+      "originChamberCode": "S",
+      "title": "An original resolution expressing the sense of the Senate that the President of the United States possesses legal authority under existing law to take immediate and necessary action to secure the southwest border of the United States.",
+      "type": "SRES",
+      "updateDate": "2025-01-22",
+      "updateDateIncludingText": "2025-01-23",
+      "url": "https://api.congress.gov/v3/bill/119/sres/29?format=json"
+    }
+  ],
+  "pagination": {
+    "count": 48
+  },
+  "request": {
+    "congress": "119",
+    "contentType": "application/json",
+    "format": "json"
+  }
+}
