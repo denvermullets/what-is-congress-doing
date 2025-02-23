@@ -1,12 +1,27 @@
+# first we get the intial set of bills and then follow pagination by subsequent queues
+
 class IngestBills < ApplicationJob
-  def perform
+  def perform(url: nil)
     api = Congress::Api.new
-    json_response = api.fetch_bills(
-      congress: 119, start: 'fromDateTime=2025-01-19T00:00:00Z',
-      end_date: 'toDateTime=2025-02-14T00:00:00Z', limit: 'limit=20'
-    )
+
+    json_response = if url.nil?
+                      api.fetch_bills(
+                        congress: 119, start: 'fromDateTime=2025-01-19T00:00:00Z',
+                        end_date: 'toDateTime=2025-02-24T00:00:00Z', limit: 'limit=100'
+                      )
+                    else
+                      api.fetch_next_bills(url:)
+                    end
+
+    if json_response['pagination'].present? && json_response['pagination']['next'].present?
+      IngestBills.perform_later(url: json_response['pagination']['next'])
+      puts "queues up next: #{json_response['pagination']['next']}"
+    end
 
     process_data(json_response)
+    puts 'executing cooldown on overall bills'
+    sleep(3)
+    puts 'resuming api calls'
   end
 
   private
