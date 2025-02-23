@@ -11,6 +11,10 @@ module Congress
       get_request(url)
     end
 
+    def fetch_next_bills(url:)
+      get_request(url)
+    end
+
     def fetch_bill(congress:, type:, number:)
       url = "#{@base}/bill/#{congress}/#{type}/#{number}?format=json"
       get_request(url)
@@ -30,6 +34,13 @@ module Congress
       puts "finding bill #{congress}/#{type}/#{number}"
       url = "#{@base}/bill/#{congress}/#{type.downcase}/#{number}/text?format=json"
       get_request(url)
+    end
+
+    def fetch_text(url:)
+      response = HTTParty.get(url)
+      raise ApiRequestError, "API Request Failed: #{response.code} - #{response.message}" unless response.success?
+
+      response.body.gsub(/\s+/, ' ').strip
     end
 
     private

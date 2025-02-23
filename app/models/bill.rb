@@ -7,5 +7,7 @@ class Bill < ApplicationRecord
 
   has_many :latest_actions, dependent: :destroy
 
+  has_one :bill_text
+
   # bill_types can be: "HR", "S", "HJRES", "SJRES", "HCONRES", "SCONRES", "HRES", and "SRES"
 end

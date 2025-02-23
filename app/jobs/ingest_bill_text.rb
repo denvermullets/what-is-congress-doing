@@ -9,6 +9,9 @@ class IngestBillText < ApplicationJob
 
     @bill = bill
     api = Congress::Api.new
+    puts 'executing cooldown on bill text'
+    sleep(1)
+    puts 'resuming api calls'
     @text_links = api.fetch_bill_text(congress: @bill.congress, type: @bill.bill_type, number: @bill.number)
 
     fetch_url_data

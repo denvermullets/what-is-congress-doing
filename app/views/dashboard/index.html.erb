@@ -4,7 +4,9 @@
       <p class='pr-6'>What is Congress Doing?</p>
     </div>
     <div class='flex-row hidden space-x-6 md:flex'>
-      <%= button_to 'Ingest Cards', ingest_bills_path, method: :post, class: 'hover:cursor-pointer' %>
+      <%= button_to 'Ingest Bills', ingest_bills_path, method: :post, class: 'hover:cursor-pointer' %>
+      <%= button_to 'Ingest Bill Text', ingest_bill_text_path, method: :post, class: 'hover:cursor-pointer' %>
+      <%= button_to 'Ingest AI Text', ingest_ai_text_path, method: :post, class: 'hover:cursor-pointer' %>
       <%= link_to 'Mission Control', '/jobs', class: '' %>
     </div>
   </div>
