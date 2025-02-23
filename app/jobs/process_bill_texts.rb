@@ -8,6 +8,9 @@ class ProcessBillTexts < ApplicationJob
       text = api.fetch_text(url: bill.text_url)
       BillText.create(bill:, bill_text: text)
       puts "obtained text for #{bill.congress}/#{bill.number}"
+      puts 'executing cooldown on bill text'
+      sleep(3)
+      puts 'resuming api calls'
     end
   end
 end

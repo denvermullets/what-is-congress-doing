@@ -20,7 +20,7 @@ class IngestBills < ApplicationJob
 
     process_data(json_response)
     puts 'executing cooldown on overall bills'
-    sleep(1)
+    sleep(3)
     puts 'resuming api calls'
   end
 

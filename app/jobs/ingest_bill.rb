@@ -11,7 +11,7 @@ class IngestBill < ApplicationJob
 
     puts "kicking off new bill #{new_bill.id}"
     puts 'executing cooldown on individual bill'
-    sleep(1)
+    sleep(3)
     puts 'resuming api calls'
     IngestBillText.perform_later(new_bill)
   end
