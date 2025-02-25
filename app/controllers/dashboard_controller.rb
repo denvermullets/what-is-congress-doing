@@ -12,6 +12,8 @@ class DashboardController < ApplicationController
   end
 
   def ingest_ai_text
-    # bill = Bill.where()
+    # bills = Bill.all
+    bills = Bill.where.not(text_url: nil).last(200)
+    bills.map { |bill| OllamaIngestBill.perform_later(bill:) }
   end
 end
