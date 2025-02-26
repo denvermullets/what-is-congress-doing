@@ -8,6 +8,7 @@ gem 'dotenv-rails'
 gem "httparty"
 gem "importmap-rails"
 gem "mission_control-jobs"
+gem "pagy"
 gem "pg", "~> 1.5.9"
 gem "propshaft"
 gem "puma", ">= 6.6.0"

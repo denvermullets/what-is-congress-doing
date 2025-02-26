@@ -1,2 +1,33 @@
 @import "tailwindcss";
 
+@theme {
+  --font-display: "Open Sans", "serif";
+
+  /* congress blue */
+  --color-congress-50: oklch(96.79% 0.0109 274.9);
+  --color-congress-100: oklch(92.85% 0.0239 270.34);
+  --color-congress-200: oklch(87.41% 0.0432 269.52);
+  --color-congress-300: oklch(79.02% 0.0738 266.64);
+  --color-congress-400: oklch(68.25% 0.1143 267.56);
+  --color-congress-500: oklch(58.79% 0.152 270.39);
+  --color-congress-600: oklch(51.38% 0.174 271.93);
+  --color-congress-700: oklch(46.05% 0.1762 273.39);
+  /* 800 is the ***base*** color, really */
+  --color-congress-800: oklch(43.47% 0.1569 275.13);
+  --color-congress-900: oklch(36.62% 0.1113 275.54);
+  --color-congress-950: oklch(27.92% 0.0692 277.52);
+
+  /* congress beige */
+  /* 50 is the ***base*** */
+  --color-pampas-50: #f5f3f1;
+  --color-pampas-100: #eeebe7;
+  --color-pampas-200: #dbd3cd;
+  --color-pampas-300: #c4b8ad;
+  --color-pampas-400: #ab988c;
+  --color-pampas-500: #9a8275;
+  --color-pampas-600: #8e7368;
+  --color-pampas-700: #765f58;
+  --color-pampas-800: #614f4b;
+  --color-pampas-900: #50423e;
+  --color-pampas-950: #2a2120;
+}
