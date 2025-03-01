@@ -12,7 +12,7 @@
       </h3>
     </div>
   </div>
-  <div class='flex flex-row flex-wrap gap-8 px-36 items-center justify-center'>
+  <div class='flex flex-row flex-wrap gap-8 px-36 items-center justify-center mb-16'>
     <% bills.each do |bill| %>
       <%= render partial: 'card', locals: { bill: }%>
     <% end %>
