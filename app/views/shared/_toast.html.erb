@@ -1,0 +1,8 @@
+<%= turbo_stream.append "toasts" do %>
+  <div
+    data-controller="toast"
+    class="p-4 rounded-lg shadow-lg text-menu <%= flash[:type] == 'success' ? 'bg-green-500' : 'bg-red-100' %>"
+  >
+    <%= message %>
+  </div>
+<% end %>

@@ -1,0 +1,23 @@
+<div class='flex flex-col w-fullgap-8'>
+  <% if bill.rating.nil? %>
+    <%= render partial: 'bills/show/edit_form', locals: { bill: } %>
+  <% else %>
+    <div class='px-32 py-16 '>
+      <div class='flex flex-row gap-4'>
+        <div class='flex flex-col gap-4'>
+          <%= render partial: 'bills/show/title_card', locals: { bill: } %>
+          <div class='flex flex-row gap-4'>
+            <%= render partial: 'bills/show/pro_cons', locals: { ai_json: bill.bill_text.ai_json, pro: true } %>
+            <%= render partial: 'bills/show/pro_cons', locals: { ai_json: bill.bill_text.ai_json, pro: false } %>
+          </div>
+        </div>
+        <div class='flex flex-col gap-4'>
+          <%= render partial: 'bills/show/sponsors', locals: { bill:, sponsor: true, sponsors: bill.sponsors } %>
+          <% if bill.co_sponsors.count > 0 %>
+            <%= render partial: 'bills/show/sponsors', locals: { bill:, sponsor: false, sponsors: bill.co_sponsors } %>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>

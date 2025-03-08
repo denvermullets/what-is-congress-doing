@@ -13,7 +13,10 @@ class DashboardController < ApplicationController
 
   def ingest_ai_text
     # bills = Bill.all
-    bills = Bill.where.not(text_url: nil).last(200)
-    bills.map { |bill| OllamaIngestBill.perform_later(bill:) }
+    # bills = Bill.last(10)
+    # bills = Bill.sample
+    # OllamaIngestBill.perform_later(bill: Bill.all.sample)
+    Bill.all.limit(400).map { |bill| OllamaIngestBill.perform_later(bill:) }
+    # bills.map { |bill| OllamaIngestBill.perform_later(bill:) }
   end
 end

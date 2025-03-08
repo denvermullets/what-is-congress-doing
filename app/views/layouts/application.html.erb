@@ -20,8 +20,9 @@
     <%= stylesheet_link_tag :app, "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
   </head>
-  <body class='bg-pampas-50'>
+  <body class='bg-pampas-50 font-display'>
     <main class="flex">
+      <div id="toasts" class="fixed z-50 space-y-2 bottom-4 right-4"></div>
       <%= yield %>
     </main>
   </body>
