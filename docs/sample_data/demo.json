@@ -1,19 +1,16 @@
 {
-  "summary": "H.R. 190, titled the 'SEND THEM BACK Act of 2025,' proposes to expedite the removal of undocumented immigrants who entered the U.S. on or after January 20, 2021, even if they have expressed a fear of persecution or intention to apply for asylum. The bill exempts current members of the U.S. Armed Forces as of January 1, 2025.",
-  "pros_and_cons": {
-    "Pros": [
-      "The bill could potentially streamline immigration enforcement processes.",
-      "It may reduce backlogs in immigration courts by expediting certain cases."
-    ],
-    "Cons": [
-      "It undermines the asylum system by denying due process to individuals fleeing persecution or violence.",
-      "The expedited removal process could lead to the deportation of vulnerable populations, including families and children, without proper legal review.",
-      "The bill disproportionately targets immigrants who entered under the Biden administration, reflecting partisan politics rather than a comprehensive immigration strategy.",
-      "It perpetuates xenophobic rhetoric by using the acronym 'SEND THEM BACK,' which dehumanizes immigrants."
-    ]
-  },
-  "BSC Rating": {
-    "rating": 8,
-    "explanation": "The bill is highly problematic from a progressive standpoint, as it ignores human rights and due process. The use of the slogan 'SEND THEM BACK' adds to its xenophobic undertones, making it extreme but not the most absurd proposal in recent immigration policy history."
-  }
+  "rating": 4,
+  "summary": "The bill aims to enhance national security by requiring the Committee on Foreign Investment in the United States (CFIUS) to review any purchase or lease of real estate near military installations or military airspace by foreign individuals connected to or subsidized by Russia, China, Iran, or North Korea. The goal is to prevent these foreign adversaries from potentially gathering intelligence or undermining U.S. military operations.",
+  "ratingDesc": "While it has problematic elements, such as its potential for xenophobic abuse, it is not entirely irrational or extreme compared to other bills that overtly attack civil liberties, the environment, or social welfare. Its focus on national security could even be seen as reasonable in some contexts, but the risks of authoritarian exploitation elevate its 'craziness' factor slightly.",
+  "pros": [
+    "By scrutinizing real estate purchases near military installations, the bill could help prevent foreign adversaries from gaining strategic advantages or accessing sensitive information.",
+    "It aligns with progressive values of maintaining national security without resorting to overt militarism or aggression."
+  ],
+  "cons": [
+    "The bill targets specific countries and their nationals, which could perpetuate xenophobic narratives and discrimination against people from these nations.",
+    "A far-right president could weaponize this law to justify broader restrictions on immigration or property rights under the guise of 'national security.'",
+    "It could be used to demonize certain groups, particularly Chinese or Iranian nationals, as part of anti-communist or Islamophobic propaganda.",
+    "A fascist-leaning president could expand this law to restrict property rights for marginalized groups or political dissidents under the guise of 'national security'.",
+    "The term 'connected to or subsidized by' could be interpreted vaguely, allowing for targeting of individuals with even tenuous ties to these nations, potentially infringing on civil liberties."
+  ]
 }

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2025_02_22_173725) do
+ActiveRecord::Schema[8.0].define(version: 2025_03_02_123434) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "pg_catalog.plpgsql"
 
@@ -50,6 +50,7 @@ ActiveRecord::Schema[8.0].define(version: 2025_02_22_173725) do
     t.text "result"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.jsonb "ai_json"
     t.index ["bill_id"], name: "index_bill_texts_on_bill_id"
   end
 
@@ -67,6 +68,7 @@ ActiveRecord::Schema[8.0].define(version: 2025_02_22_173725) do
     t.date "introduced_date"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "rating"
   end
 
   create_table "latest_actions", force: :cascade do |t|

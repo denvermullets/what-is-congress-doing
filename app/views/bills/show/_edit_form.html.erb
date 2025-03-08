@@ -1,0 +1,23 @@
+<p style="white-space: pre-line;" class='w-full'><%= bill&.bill_text&.result.gsub(/"/, "'") %></p>
+<%= form_with(model: bill, url: bill_path(bill), method: :patch, local: true, class: "space-y-6 border border-2 rounded-lg border-congress-500 p-16") do |f| %>
+  <div>
+    <%= f.label :rating, "Rating", class: "block text-sm font-medium text-gray-700" %>
+    <%= f.text_field :rating, class: "mt-1 p-2 w-full border bg-white rounded-md shadow-sm focus:ring focus:ring-blue-300" %>
+  </div>
+  <div data-controller="json-editor" class="w-full mx-auto bg-gray-100 rounded-lg shadow">
+    <label for="jsonInput" class="block text-sm font-medium text-gray-700">JSON Editor</label>
+    <textarea
+        id="jsonInput"
+        name="bill[ai_json]"
+        data-json-editor-target="input"
+        data-action="input->json-editor#format paste->json-editor#format"
+        class="w-full h-140 p-2 mt-1 text-sm font-mono border rounded focus:ring focus:ring-blue-300"
+        placeholder='{"key": "value"}'>
+        <%= bill.bill_text.ai_json.present? ? bill.bill_text.ai_json.to_json : '{"rating": 0,"summary": "","ratingDesc": "","pros": [],"cons": []}' %>
+      </textarea>
+    <p data-json-editor-target="error" class="mt-1 text-sm text-red-500"></p>
+  </div>
+  <div>
+    <%= f.submit "Update Bill", class: "bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 hover:cursor-pointer" %>
+  </div>
+<% end %>

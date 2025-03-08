@@ -1,8 +1,11 @@
 <div class='flex flex-col border border-congress-800 rounded-2xl p-8 w-xl border-t-16 bg-congress-w'>
   <div class='flex flex-row gap-8 justify-between'>
     <div class='flex flex-col justify-center gap-2.5'>
-      <%# rating %>
-      <p class='text-congress-800 text-xs'>&#9733;&#9733;&#9733;&#9733;&#9733;&#9733;&#9733;&#9734;&#9734;&#9734; (Crazy Scale 7/10)</p>
+      <% if bill.rating.nil? %>
+        <p class='text-congress-800 text-xs'>No Rating</p>
+      <% else %>
+        <p class='text-congress-800 text-xs'><%= sanitize(generate_stars(bill.rating)) %> (Crazy Scale <%= bill.rating %>/10)</p>
+      <% end %>
       <%# title %>
       <p class='text-congress-800 text-xs max-w-96'><%= bill.title %></p>
     </div>
@@ -13,11 +16,9 @@
           <%= render partial: 'shared/svg/one_two'%>
         </div>
       </div>
-      <div class='w-auto '>
+      <div class='w-full '>
         <%# view details button %>
-        <button class="rounded-lg w-full bg-congress-800 hover:bg-congress-600 hover:cursor-pointer text-white text-sm font-bold py-2 px-4">
-          View Details
-        </button>
+        <%= link_to "View Details", bill_path(bill), class: "rounded-lg w-full bg-congress-800 hover:bg-congress-600 hover:cursor-pointer text-white text-sm font-bold py-2 px-4 block text-center" %>
       </div>
     </div>
   </div>

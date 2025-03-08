@@ -1,0 +1,10 @@
+<div class='flex flex-col border border-congress-800 rounded-2xl p-8 border-t-16 bg-congress-w text-congress-800 w-full'>
+  <div class='flex flex-col gap-4'>
+    <p class='text-2xl font-bold'><%= pro == true ? 'Pros:' : 'Cons:' %></p>
+    <ul class='list-inside list-disc'>
+      <% ai_json[pro == true ? 'pros' : 'cons'].each do |item| %>
+        <li class='mb-4'><%= item %></li>
+      <% end %>
+    </ul>
+  </div>
+</div>
