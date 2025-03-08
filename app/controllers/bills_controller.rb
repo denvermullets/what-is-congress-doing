@@ -2,7 +2,8 @@ class BillsController < ApplicationController
   include Pagy::Backend
 
   def index
-    pagy, bills = pagy(Bill.all)
+    # pagy, bills = pagy(Bill.all)
+    pagy, bills = pagy(Bill.where(rating: nil))
     render :index, locals: { bills:, pagy: }
   end
 

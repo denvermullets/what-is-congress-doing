@@ -2,7 +2,7 @@
   <% if bill.rating.nil? %>
     <%= render partial: 'bills/show/edit_form', locals: { bill: } %>
   <% else %>
-    <div class='px-32 py-16 '>
+    <div class='px-32 py-16 h-auto '>
       <div class='flex flex-row gap-4'>
         <div class='flex flex-col gap-4'>
           <%= render partial: 'bills/show/title_card', locals: { bill: } %>
