@@ -17,7 +17,7 @@
             <p class='text-xs'><%= sponsor.birth_year.nil? ? 'Unknown' : "Age: #{Time.now.year - sponsor.birth_year.to_i}" %></p>
           </div>
           <div>
-            <p class='text-xs'><%= link_to sanitize(sponsor.official_website_url), sanitize(sponsor.official_website_url), target: '_blank', rel: 'noopener noreferrer' %></p>
+            <p class='text-xs'><%= link_to strip_tags(sponsor.official_website_url), strip_tags(sponsor.official_website_url), target: '_blank', rel: 'noopener noreferrer' %></p>
           </div>
         </div>
       </div>
