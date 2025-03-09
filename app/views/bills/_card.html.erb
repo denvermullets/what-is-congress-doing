@@ -1,4 +1,4 @@
-<div class='flex flex-col border border-congress-800 rounded-2xl p-8 w-xl border-t-16 bg-congress-w'>
+<div class='flex flex-col border border-congress-800 rounded-2xl p-8 w-2xl border-t-16 bg-congress-w'>
   <div class='flex flex-row gap-8 justify-between'>
     <div class='flex flex-col justify-center gap-2.5'>
       <% if bill.rating.nil? %>
@@ -23,6 +23,6 @@
     </div>
   </div>
   <div>
-    <%# progress bar %>
+    <%= render partial: 'bills/show/progress_bar', locals: { current_status: determine_bill_status(bill) } %>
   </div>
 </div>

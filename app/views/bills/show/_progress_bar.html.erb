@@ -1,0 +1,71 @@
+<%
+  # Expected locals:
+  # current_status: String matching one of the statuses in the status_map
+  #
+  # Define status labels and their order
+  status_map = {
+    "introduced" => { position: 1, label: "Introduced" },
+    # "committee" => { position: 1, label: "In Committee" },
+    "passed_house" => { position: 2, label: "Passed House" },
+    "passed_senate" => { position: 3, label: "Passed Senate" },
+    "to_president" => { position: 4, label: "To President" },
+    "became_law" => { position: 5, label: "Became Law" }
+  }
+
+  # Get the current status position (or default to 1)
+  current_status_data = status_map[current_status.to_s.downcase] || status_map.values.first
+  current_position = current_status_data[:position]
+%>
+<div class="w-full pt-6 px-4 mt-6">
+  <div class="relative">
+    <!-- Status indicators with connecting lines -->
+    <div class="flex items-center justify-between relative">
+      <!-- The gray background line -->
+      <div class="absolute h-1 bg-gray-200" style="left: 24px; right: 24px; top: 16px;"></div>
+      <!-- The blue progress line -->
+      <% if current_position > 1 %>
+        <div class="absolute h-1 bg-congress-800"
+             style="left: 24px; width: calc((100% - 48px) * <%= (current_position - 1) / 4.0 %>); top: 16px;"></div>
+      <% end %>
+      <% status_map.sort_by { |_, data| data[:position] }.each do |status_key, data| %>
+        <%
+          position = data[:position]
+          label = data[:label]
+
+          # Determine the state of this indicator
+          is_completed = position < current_position
+          is_current = position == current_position
+          is_upcoming = position > current_position
+        %>
+        <div class="flex flex-col items-center relative z-10">
+          <!-- Circle indicator -->
+          <div class="
+            w-8 h-8 rounded-full border-2
+            <%= is_completed ? 'bg-congress-800 border-congress-800' :
+                is_current ? 'bg-white border-congress-800' :
+                'bg-white border-gray-300' %>
+            flex items-center justify-center
+          ">
+            <% if is_completed %>
+              <!-- Checkmark for completed steps -->
+              <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
+              </svg>
+            <% elsif is_current %>
+              <!-- Filled circle for current step -->
+              <div class="w-4 h-4 rounded-full bg-congress-800"></div>
+            <% end %>
+          </div>
+          <!-- Status label -->
+          <div class="text-xs mt-2 text-center <%=
+            is_current ? 'font-bold text-congress-800' :
+            is_completed ? 'font-medium text-gray-700' :
+            'text-gray-500'
+          %>">
+            <%= label %>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
