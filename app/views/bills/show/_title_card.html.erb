@@ -29,6 +29,6 @@
     </div>
   </div>
   <div>
-    <%# progress bar %>
+    <%= render partial: 'bills/show/progress_bar', locals: { current_status: determine_bill_status(bill) } %>
   </div>
 </div>

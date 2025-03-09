@@ -3,7 +3,7 @@ class BillsController < ApplicationController
 
   def index
     # pagy, bills = pagy(Bill.all)
-    pagy, bills = pagy(Bill.where(rating: nil))
+    pagy, bills = pagy(Bill.where.not(rating: nil))
     render :index, locals: { bills:, pagy: }
   end
 
