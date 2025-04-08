@@ -1,5 +1,5 @@
 <div class='p-4'>
-  <p style="white-space: pre-line;" class='w-full'><%= bill&.bill_text&.result.gsub(/"/, "'") %></p>
+  <p style="white-space: pre-line;" class='w-full'><%= bill&.bill_text&.result&.gsub(/"/, "'") %></p>
   <%= form_with(model: bill, url: bill_path(bill), method: :patch, local: true, class: "space-y-6 border border-2 rounded-lg border-congress-500 p-16") do |f| %>
     <div>
       <%= f.label :rating, "Rating", class: "block text-sm font-medium text-gray-700" %>
@@ -14,7 +14,7 @@
         data-action="input->json-editor#format paste->json-editor#format"
         class="w-full h-140 p-2 mt-1 text-sm font-mono border rounded focus:ring focus:ring-blue-300"
         placeholder='{"key": "value"}'>
-        <%= bill.bill_text.ai_json.present? ? bill.bill_text.ai_json.to_json : '{"rating": 0,"summary": "","ratingDesc": "","pros": [],"cons": []}' %>
+        <%= bill.bill_text&.ai_json&.present? ? bill.bill_text.ai_json.to_json : '{"rating": 0,"summary": "","ratingDesc": "","pros": [],"cons": []}' %>
       </textarea>
       <p data-json-editor-target="error" class="mt-1 text-sm text-red-500"></p>
     </div>

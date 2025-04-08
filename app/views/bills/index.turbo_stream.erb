@@ -1,0 +1,8 @@
+<%= turbo_stream.update 'bills-container' do %>
+  <div class='flex flex-row flex-wrap gap-8 px-16 items-center justify-center mb-16'>
+    <% bills.each do |bill| %>
+      <%= render partial: 'card', locals: { bill: }%>
+    <% end %>
+  </div>
+  <%# <%= render 'index', locals: { bills:, pagy: } %> %>
+<% end %>

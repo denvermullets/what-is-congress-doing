@@ -17,8 +17,7 @@
         </div>
       </div>
       <div class='w-full '>
-        <%# view details button %>
-        <%= link_to "View Details", bill_path(bill), class: "rounded-lg w-full bg-congress-800 hover:bg-congress-600 hover:cursor-pointer text-white text-sm font-bold py-2 px-4 block text-center" %>
+        <%= link_to "View Details", bill_path(bill), class: "rounded-lg w-full bg-congress-800 hover:bg-congress-600 hover:cursor-pointer text-white text-sm font-bold py-2 px-4 block text-center", data: { turbo: false } %>
       </div>
     </div>
   </div>

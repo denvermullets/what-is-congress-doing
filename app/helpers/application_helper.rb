@@ -1,4 +1,6 @@
 module ApplicationHelper
+  include Pagy::Frontend
+
   def generate_stars(rating)
     empty = 10 - rating
     stars = ''
