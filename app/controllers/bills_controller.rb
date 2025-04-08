@@ -2,9 +2,14 @@ class BillsController < ApplicationController
   include Pagy::Backend
 
   def index
-    # pagy, bills = pagy(Bill.all)
-    pagy, bills = pagy(Bill.where.not(rating: nil))
-    render :index, locals: { bills:, pagy: }
+    pagy, bills = pagy(Bill.all)
+    # pagy, bills = pagy(Bill.where.not(rating: nil))
+
+    respond_to do |format|
+      format.turbo_stream
+      format.html { render 'index', locals: { bills:, pagy: } }
+    end
+    # render :index, locals: { bills:, pagy: }
   end
 
   def show

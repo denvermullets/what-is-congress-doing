@@ -1,5 +1,5 @@
 <div class='flex flex-col w-full'>
-  <div class="flex flex-row justify-center items-center w-full h-[400px]">
+  <div class="flex flex-row justify-center items-center w-full h-[400px] header-grids">
     <div class="text-congress-800">
       <h1 class="text-7xl font-display font-bold mb-4">
         What is Congress Doing?
@@ -12,9 +12,21 @@
       </h3>
     </div>
   </div>
-  <div class='flex flex-row flex-wrap gap-8 px-16 items-center justify-center mb-16'>
-    <% bills.each do |bill| %>
-      <%= render partial: 'card', locals: { bill: }%>
+  <div class='w-full flex flex-col items-center justify-center mb-16 px-72'>
+    <%= turbo_frame_tag 'bills_content' do %>
+      <div class='flex flex-row items-center justify-between p-6 space-x-4'>
+        <%== pagy_info(pagy) %>
+        <%== pagy_nav(pagy, link_extra: 'data-turbo-stream="true"') %>
+      </div>
+      <div id="bills-container" class='flex flex-wrap justify-center gap-8 w-full'>
+        <% bills.each do |bill| %>
+          <%= render partial: 'card', locals: { bill: } %>
+        <% end %>
+      </div>
     <% end %>
+    <div class='flex flex-row items-center justify-between p-6 space-x-4'>
+      <%== pagy_info(pagy) %>
+      <%== pagy_nav(pagy, link_extra: 'data-turbo-stream="true"') %>
+    </div>
   </div>
 </div>

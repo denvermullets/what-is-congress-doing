@@ -13,10 +13,12 @@
             <% else %>
               <div style="width: 64px; height: 76px; flex-shrink: 0; border-radius: 16px;" class="bg-congress-800 border border-congress-600"></div>
             <% end %>
+            <div class="absolute bottom-0 left-0 w-full h-4 <%= sponsor.party == 'R' ? 'bg-red-500' : 'bg-blue-500' %> flex items-center justify-center">
+              <p class='text-xs text-congress-w'><%= "#{get_abbr(sponsor.display_name)}" %></p>
+            </div>
           </div>
           <div class='flex flex-col space-y-2 ml-3'>
             <div>
-              <p class='text-xs'><%= "#{get_abbr(sponsor.display_name)}" %></p>
               <p><%= strip_abbr(sponsor.display_name) %></p>
               <p class='text-xs'><%= sponsor.birth_year.nil? ? 'Unknown' : "Age: #{Time.now.year - sponsor.birth_year.to_i}" %></p>
             </div>

@@ -33,3 +33,34 @@
 
   --color-congress-w: #f9fbfc;
 }
+
+.pagy {
+  @apply flex space-x-1 text-sm text-congress-800;
+  a:not(.gap) {
+    @apply block rounded-lg px-3 py-1 border border-congress-800;
+    &:hover {
+      @apply bg-congress-800 text-congress-w;
+    }
+    &:not([href]) {
+      /* disabled links */
+      @apply text-gray-300 bg-gray-100 cursor-default border-gray-100;
+    }
+    &.current {
+      @apply text-white bg-congress-800;
+    }
+  }
+  label {
+    @apply inline-block whitespace-nowrap bg-gray-200 rounded-lg px-3 py-0.5;
+    input {
+      @apply bg-gray-100 border-none rounded-md;
+    }
+  }
+}
+
+.header-grids {
+  background-color: #f5f3f1;
+  /* opacity: 0.2; */
+  background-image: linear-gradient(oklch(43.47% 0.1569 275.13 / 0.2) 1px, transparent 1px),
+    linear-gradient(to right, oklch(43.47% 0.1569 275.13 / 0.2) 1px, #f5f3f1 1px);
+  background-size: 80px 80px;
+}
